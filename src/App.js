@@ -1,9 +1,11 @@
-function App() {
-  return (
-    <div className="App">
+import React from 'react'
+import './App.less'
+import Home from './Home'
 
-    </div>
-  );
+function App () {
+  return (
+    <Home />
+  )
 }
 
-export default App;
+export default App
